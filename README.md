@@ -1,6 +1,8 @@
 # quick-docker-unbound
 Small container with Unbound DNS resolver with auto-reload
 
+Unbound is a validating, recursive, and caching DNS resolver.  It is intended for resolving DNS requests, but is able to resolve for local domains as well.  It is not intended to be an authoritative DNS server so it doesn't support zone transfers, but if you have a simple DNS requirement like a single location or home network, it's helpful for serving all DNS for the local network and quickly resolving external hostnames up to root DNS servers.
+
 Build a Docker image tagged as `unbound-server` from the `Unbound.dockerfile`.
 
 ```sh
