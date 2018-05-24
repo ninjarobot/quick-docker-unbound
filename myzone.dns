@@ -1,0 +1,5 @@
+local-zone: "myzone.localnet." static
+local-data: "abcdef.myzone.localnet IN A 1.2.3.4"
+local-data-ptr: "1.2.3.4 abcdef.myzone.localnet"
+local-data: "somestuff.myzone.localnet IN TXT foo=bar"
+local-data: "somestuff.myzone.localnet IN TXT pow=shazam"
